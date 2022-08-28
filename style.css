@@ -328,7 +328,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   .header {
     background: url(images/bg-hero-mobile.svg) top no-repeat,
       var(--very-pale-cyan);
@@ -419,12 +419,10 @@ footer a:hover {
   }
 
   .floating-card .get-started-btn {
-    position: relative;
-    /* width: 300px; */
     padding: 18px 75px;
     font-size: 0.75rem;
     bottom: 23%;
-    top: 15%;
+    top: 20%;
   }
 
   /* bottom part */
