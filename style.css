@@ -176,8 +176,9 @@ ul {
 .floating-card h2 {
   font-family: var(--fonts-heading);
   color: var(--very-dark-cyan);
+  font-size: 1.6rem;
   text-align: center;
-  padding: 70px 50px 130px;
+  padding: 70px 50px 40px;
 }
 
 .floating-card .get-started-btn {
@@ -192,7 +193,6 @@ ul {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  /* bottom: 30%; */
 }
 
 .floating-card .get-started-btn:hover {
