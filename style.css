@@ -499,6 +499,105 @@ footer a:hover {
   }
 }
 
+@media (max-width: 390px) {
+  .header {
+    background: url(images/bg-hero-mobile.svg) top/100% no-repeat,
+      var(--very-pale-cyan);
+    padding: 30px 25px;
+  }
+
+  .top-section .logo img {
+    width: 110px;
+  }
+
+  .top-section .try-btn {
+    padding: 6px 28px;
+    font-size: 0.7rem;
+  }
+
+  .main-section {
+    padding: 0 10px;
+  }
+
+  .main-section img {
+    width: 310px;
+  }
+
+  .hu-introductory {
+    margin-top: 75px;
+  }
+
+  .hu-introductory h1 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+
+  .hu-introductory p {
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+  }
+
+  .hu-introductory .get-started-btn {
+    padding: 15px 60px;
+    font-size: 0.75rem;
+  }
+
+  /* middle part */
+
+  .block {
+    padding: 60px 40px 40px;
+  }
+
+  .block img {
+    width: 240px;
+    margin-bottom: 50px;
+  }
+
+  .block div {
+    max-width: 270px;
+  }
+
+  .block h2 {
+    font-size: 1.2rem;
+  }
+
+  .block p {
+    font-size: 0.81rem;
+  }
+
+  /* floating card */
+
+  .floating-card {
+    max-width: 365px;
+    max-height: 180px;
+    border-radius: 20px;
+    top: -11%;
+  }
+
+  .floating-card h2 {
+    font-size: 1.05rem;
+    padding: 40px 0 22px;
+  }
+
+  .floating-card .get-started-btn {
+    font-size: 0.6rem;
+  }
+
+  /* bottom part */
+
+  .bottom-section {
+    padding: 130px 25px 40px;
+  }
+
+  .mid-container {
+    font-size: 0.9rem;
+  }
+
+  .hu-links {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 375px) {
   .header {
     background: url(images/bg-hero-mobile.svg) top no-repeat,
@@ -597,13 +696,12 @@ footer a:hover {
 
   .floating-card h2 {
     font-size: 1rem;
-    padding: 40px 0 0;
+    padding: 40px 0 20px;
   }
 
   .floating-card .get-started-btn {
     padding: 15px 43px;
     font-size: 0.6rem;
-    top: 16%;
   }
 
   /* bottom part */
@@ -658,9 +756,5 @@ footer a:hover {
 
   .hu-socials .copyright {
     align-self: center;
-  }
-
-  footer {
-    font-size: 0.7rem;
   }
 }
