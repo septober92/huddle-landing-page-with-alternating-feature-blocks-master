@@ -192,7 +192,7 @@ ul {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 30%;
+  /* bottom: 30%; */
 }
 
 .floating-card .get-started-btn:hover {
@@ -431,7 +431,7 @@ footer a:hover {
 
   .floating-card h2 {
     font-size: 1.1rem;
-    padding: 40px 0 80px;
+    padding: 40px 0 22px;
   }
 
   .floating-card .get-started-btn {
