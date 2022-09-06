@@ -33,7 +33,7 @@ html {
 body {
   font-family: var(--fonts-body);
   color: var(--very-dark-cyan);
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 a {
@@ -313,19 +313,19 @@ header .top-section {
   font-size: 0.7rem;
 }
 
-/* Footer */
+/* attribution */
 
-footer {
+.attribution {
   padding: 5px 0;
   text-align: center;
 }
 
-footer a {
+.attribution a {
   color: var(--pink);
   font-weight: 700;
 }
 
-footer a:hover {
+.attribution a:hover {
   text-decoration: underline;
 }
 
@@ -495,7 +495,7 @@ footer a:hover {
     align-self: center;
   }
 
-  footer {
+  .attribution {
     font-size: 0.7rem;
   }
 }
