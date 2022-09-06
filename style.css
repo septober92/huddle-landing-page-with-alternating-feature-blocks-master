@@ -44,13 +44,14 @@ ul {
   list-style: none;
 }
 
-.header {
+header {
   background: url(images/bg-hero-desktop.svg) top no-repeat,
     var(--very-pale-cyan);
   padding: 48px 80px;
+  height: 100vh;
 }
 
-.header .top-section {
+header .top-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -329,7 +330,7 @@ footer a:hover {
 }
 
 @media (max-width: 428px) {
-  .header {
+  header {
     background: url(images/bg-hero-mobile.svg) top/100% no-repeat,
       var(--very-pale-cyan);
     padding: 40px 25px;
@@ -346,7 +347,7 @@ footer a:hover {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   }
 
-  .header .top-section {
+  header .top-section {
     margin-bottom: 0px;
   }
 
@@ -500,7 +501,7 @@ footer a:hover {
 }
 
 @media (max-width: 390px) {
-  .header {
+  header {
     background: url(images/bg-hero-mobile.svg) top/100% no-repeat,
       var(--very-pale-cyan);
     padding: 30px 25px;
@@ -599,7 +600,7 @@ footer a:hover {
 }
 
 @media (max-width: 375px) {
-  .header {
+  header {
     background: url(images/bg-hero-mobile.svg) top no-repeat,
       var(--very-pale-cyan);
     padding: 30px 15px;
@@ -616,7 +617,7 @@ footer a:hover {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   }
 
-  .header .top-section {
+  header .top-section {
     margin-bottom: 0px;
   }
 
