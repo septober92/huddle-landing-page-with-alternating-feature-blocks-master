@@ -48,7 +48,7 @@ header {
   background: url(images/bg-hero-desktop.svg) top no-repeat,
     var(--very-pale-cyan);
   padding: 48px 80px;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 header .top-section {
