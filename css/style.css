@@ -1,0 +1,84 @@
+/* HEADER */
+.header__bkg-wrapper {
+  background: url(../images/bg-hero-desktop.svg) top no-repeat,
+    var(--very-pale-cyan);
+  min-height: 91vh;
+}
+
+.header {
+  max-width: 128rem;
+  padding: 4.8rem 0;
+  margin: 0 auto;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 7.4rem;
+}
+
+.header__logo {
+  width: 20rem;
+}
+
+.header__btn:link,
+.header__btn:visited {
+  color: var(--very-dark-cyan);
+  padding: 1.5rem 6rem;
+  background-color: #fff;
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.header__btn:hover,
+.header__btn:active {
+  color: hsla(192, 100%, 9%, 0.4);
+}
+
+/* HERO */
+
+.hero__introductory-box {
+  align-self: center;
+}
+
+.heading-primary {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 3.2rem;
+}
+
+.huddle-hero-description {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+.hero__btn:link,
+.hero__btn:visited {
+  padding: 2rem 7rem;
+  background-color: var(--pink);
+  box-shadow: 0 0.2rem 1.5rem rgba(255, 82, 191, 0.4);
+}
+
+.hero__btn:hover,
+.hero__btn:active {
+  background-color: rgba(255, 82, 191, 0.5);
+}
+
+.hero__img {
+  width: 100%;
+}
+
+/* FEATURES */
+
+.heading-secondary {
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--very-dark-cyan);
+  color: #fff;
+}
