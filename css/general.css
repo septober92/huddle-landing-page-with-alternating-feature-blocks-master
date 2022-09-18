@@ -64,13 +64,30 @@ a {
   grid-template-columns: 2.3fr 3fr;
 }
 
-.grid--4-cols {
-  grid-template-columns: repeat(4, 1fr);
+.grid--2-cols__features {
+  grid-template-columns: 3fr 2fr;
+  column-gap: 9.6rem;
+}
+
+.grid--footer {
+  grid-template-columns: 2.5fr 1fr 1fr 2fr;
+}
+
+.grid--3-rows {
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 4.8rem;
 }
 
 .heading-primary,
 .heading-secondary {
+  color: var(--very-dark-cyan);
   font-family: var(--fonts-heading);
+  font-weight: 700;
+}
+
+.heading-secondary {
+  font-size: 2.8rem;
 }
 
 .btn:link,
