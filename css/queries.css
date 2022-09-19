@@ -22,3 +22,41 @@
     border-color: var(--pink);
   }
 }
+
+/* SMALLER DESKTOPS */
+
+@media (max-width: 80em) {
+  .header {
+    max-width: 120rem;
+  }
+
+  .hero {
+    padding: 0 3.2rem;
+  }
+
+  .section-huddle-features {
+    max-width: 110rem;
+  }
+}
+
+/* TABLETS (LANDSCAPE)  */
+
+@media (max-width: 75em) {
+  html {
+    /* new font size = 9px */
+    font-size: 56.5%;
+  }
+
+  .grid {
+    column-gap: 6.4rem;
+  }
+
+  .huddle-feature__text-box {
+    padding-right: 9.6rem;
+  }
+
+  .huddle-feature__text-box:nth-of-type(2) {
+    padding-right: 0;
+    padding-left: 9.6rem;
+  }
+}
