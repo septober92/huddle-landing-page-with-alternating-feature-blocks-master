@@ -1,0 +1,24 @@
+/* NONSTICKY HOVER STATE */
+
+@media (hover: hover) {
+  .header__btn:hover {
+    color: hsla(192, 100%, 9%, 0.4);
+  }
+
+  .hero__btn:hover {
+    background-color: rgba(255, 82, 191, 0.5);
+  }
+
+  .footer-link:hover {
+    border-color: #fff;
+  }
+
+  .footer__socials li a i:hover {
+    border: 0.15rem solid var(--pink);
+    color: var(--pink);
+  }
+
+  .attribution a:hover {
+    border-color: var(--pink);
+  }
+}
