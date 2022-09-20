@@ -108,7 +108,11 @@
   }
 }
 
-@media (max-width: 26.5em) {
+/* MOBILE PHONES */
+
+/* iPhone 12/13/14 Pro Max */
+
+@media (max-width: 26.75em) {
   .grid--2-cols {
     grid-template-columns: 1fr;
     row-gap: 8rem;
@@ -132,6 +136,8 @@
   .header__btn:visited {
     padding: 1rem 3rem;
   }
+
+  /* hero */
 
   .section-hero {
     text-align: center;
@@ -189,7 +195,7 @@
   /* footer */
 
   .footer__floating-card {
-    top: -20%;
+    top: -15%;
     width: 93%;
   }
 
@@ -250,5 +256,23 @@
 
   .footer__copyright {
     text-align: center;
+  }
+}
+
+@media (max-width: 23.4375em) {
+  html {
+    font-size: 47%;
+  }
+
+  .header__top {
+    margin-bottom: 6.4rem;
+  }
+
+  .section-hero {
+    padding: 0 1.8rem;
+  }
+
+  .huddle-feature--description {
+    font-size: 1.7rem;
   }
 }
